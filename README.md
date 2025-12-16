@@ -82,7 +82,6 @@ Ikuti langkah berikut untuk menjalankan proyek di komputer lokal Anda:
    php artisan key:generate
    php artisan migrate:fresh --seed
    ```
-   *(Perintah ini akan membuat tabel dan mengisi data dummy untuk testing)*
 
 5. **Jalankan Aplikasi**
    ```bash
@@ -92,20 +91,8 @@ Ikuti langkah berikut untuk menjalankan proyek di komputer lokal Anda:
 
 ---
 
-## 🔐 Akun Testing (Seed Data)
-
-Berikut adalah akun default yang dapat digunakan untuk login:
-
-| Role | Username / Kode | Password |
-|------|-----------------|----------|
-| **Admin** | `admin` | `admin` |
-| **Kaprodi** | `KAPRODI01` | `password` |
-| **Pimpinan** | `REKTOR01` | `password` |
-| **Dosen** | `0001018501` | `0001018501` |
-| **Mahasiswa** | `2021001` | `2021001` |
-
----
-
 ## 📝 Lisensi
 
-[MIT licensed](LICENSE)
+Sistem ini adalah perangkat lunak open-source yang dilisensikan di bawah [MIT license](https://opensource.org/licenses/MIT).
+
+Silakan gunakan, modifikasi, dan distribusikan sesuai dengan ketentuan lisensi.
